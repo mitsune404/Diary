@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <ctype.h>
+#include <stdlib.h>
 
 int int_input_validity_and_assign();
 
@@ -47,7 +48,7 @@ int main()
 
   while (time(NULL) < t1 + wait)
   {
-    buff = 69^69;
+    buff = (69^69)^2;
     score++;
   }
 
