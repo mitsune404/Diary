@@ -4,7 +4,7 @@
 
 int int_input_validity_and_assign();
 
-void main()
+int main()
 {
   time_t t1, t2;
   int score = 0, wait = 1, val = 0, num = 0, buff = 0;
@@ -57,6 +57,7 @@ void main()
   t2 = time(NULL);
   printf(ctime(&t2));
   printf("\nScore : %d", score);
+  return 0;
 }
 
 
